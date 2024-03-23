@@ -4,7 +4,7 @@ The program allows users to plan a holiday, showing activities in a map. The use
 
 ### Development Server
 
-1. Duplicate the `.env-template` to an `.env` file, and fill in the variables. 
+1. Duplicate the `.env.example` file to an `.env.local` file, and fill in the variables. 
 
 2. Start the server for development:
 
