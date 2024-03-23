@@ -4,13 +4,15 @@ The program allows users to plan a holiday, showing activities in a map. The use
 
 ### Development Server
 
-Start the server for development:
+1. Duplicate the `.env-template` to an `.env` file, and fill in the variables. 
+
+2. Start the server for development:
 
 ```bash
 npm run dev
 ```
 
-Start the server regularly run:
+3. Start the server regularly run:
 
 ```bash
 npm i
@@ -19,8 +21,6 @@ npm i
 ```bash
 npm start
 ```
-
-Server runs on localhost:5000
 
 ### Testing Functionality
 
