@@ -1,0 +1,69 @@
+/* Module code: CS5003 */
+/* Module: Masters Programming Projects */
+/* Homepage: Creating a Holiday Planner */
+
+/* Styling the map display */
+#map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+/*Styling for recommendation, filtering and submitting*/
+.panelDisplay {
+  height: auto;
+  display: flex;
+  padding: 3px;
+  margin: 3px;
+  border: 3px solid black;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.resultPanel {
+  position: relative;
+  vertical-align: top;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  width: 20vw;
+  height: 20vw;
+}
+
+.detailSubPanel {
+  padding: 3px;
+  margin: 3px;
+  border: 3px solid black;
+}
+
+.filterForm {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  padding: 3px;
+  border: 3px solid black;
+}
+.filterSettings {
+  flex: 1;
+  float: left;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.submissionForm {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  padding: 3px;
+  border: 3px solid black;
+}
+.submissionSettings {
+  flex: 1;
+  float: left;
+  padding: 3px;
+  border: 1px solid black;
+}
